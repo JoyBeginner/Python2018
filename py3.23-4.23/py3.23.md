@@ -1,5 +1,6 @@
 # py 正则表达式
 
+```python
 import re
 file = open("Documents/Report/wire/taobao_viewer_userB_1149pm.txt")
 text = file.read()
@@ -15,3 +16,5 @@ if '' in brr:
     brr.remove('')
 print len(brr)
 print brr
+
+```
